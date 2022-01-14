@@ -138,3 +138,47 @@ nav{
      margin: 10px 0;
      line-height: 1.5;
  }
+
+ /* Gallery */
+ .gallery{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 30px;
+ }
+ .photo img{
+     width: 100%;
+     height: 200px;
+     object-fit: cover;
+     border: 2px solid #FF008E;
+ }
+
+ /* Contact part */
+ .contact{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 30px;
+ }
+ .contact-left img{
+     width: 100%;
+ }
+ .contact-right form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .text-field{
+     width: 100%;
+     margin: 10px 0;
+     padding: 10px;
+     font-size: 18px;
+     font-family: inherit;
+     outline: 0;
+     border: 1px solid #FF008E;
+ }
+ footer{
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
